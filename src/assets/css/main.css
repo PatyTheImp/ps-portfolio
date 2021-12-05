@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+:root {
+    --color-dark1: #181e26;
+    --color-dark2: #272f40;
+    --color-pink: #f205cb;
+    --color-light: #f2f2f2;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(
+      to left top,
+      var(--color-dark2),
+      var(--color-dark1)
+    );
+  }
