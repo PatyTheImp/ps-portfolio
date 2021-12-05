@@ -135,7 +135,7 @@ $break-point: 600px;
   color: var(--color-dark1);
   opacity: 0;
   transform: translate(-300px, 0) scale(0);
-  animation: sideSlide 0.5s forwards;
+  animation: sideSlide .75s forwards;
 }
 
 @keyframes sideSlide {
