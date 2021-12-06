@@ -75,58 +75,58 @@ $break-point: 600px;
 
 .animate span {
   display: inline-block;
-}
 
-.animate span:nth-of-type(2) {
-  animation-delay: 0.05s;
-}
-.animate span:nth-of-type(3) {
-  animation-delay: 0.1s;
-}
-.animate span:nth-of-type(4) {
-  animation-delay: 0.15s;
-}
-.animate span:nth-of-type(5) {
-  animation-delay: 0.2s;
-}
-.animate span:nth-of-type(6) {
-  animation-delay: 0.25s;
-}
-.animate span:nth-of-type(7) {
-  animation-delay: 0.3s;
-}
-.animate span:nth-of-type(8) {
-  animation-delay: 0.35s;
-}
-.animate span:nth-of-type(9) {
-  animation-delay: 0.4s;
-}
-.animate span:nth-of-type(10) {
-  animation-delay: 0.45s;
-}
-.animate span:nth-of-type(11) {
-  animation-delay: 0.5s;
-}
-.animate span:nth-of-type(12) {
-  animation-delay: 0.55s;
-}
-.animate span:nth-of-type(13) {
-  animation-delay: 0.6s;
-}
-.animate span:nth-of-type(14) {
-  animation-delay: 0.65s;
-}
-.animate span:nth-of-type(15) {
-  animation-delay: 0.7s;
-}
-.animate span:nth-of-type(16) {
-  animation-delay: 0.75s;
-}
-.animate span:nth-of-type(17) {
-  animation-delay: 0.8s;
-}
-.animate span:nth-of-type(18) {
-  animation-delay: 0.85s;
+  &:nth-of-type(2) {
+    animation-delay: 0.05s;
+  }
+  &:nth-of-type(3) {
+    animation-delay: 0.1s;
+  }
+  &:nth-of-type(4) {
+    animation-delay: 0.15s;
+  }
+  &:nth-of-type(5) {
+    animation-delay: 0.2s;
+  }
+  &:nth-of-type(6) {
+    animation-delay: 0.25s;
+  }
+  &:nth-of-type(7) {
+    animation-delay: 0.3s;
+  }
+  &:nth-of-type(8) {
+    animation-delay: 0.35s;
+  }
+  &:nth-of-type(9) {
+    animation-delay: 0.4s;
+  }
+  &:nth-of-type(10) {
+    animation-delay: 0.45s;
+  }
+  &:nth-of-type(11) {
+    animation-delay: 0.5s;
+  }
+  &:nth-of-type(12) {
+    animation-delay: 0.55s;
+  }
+  &:nth-of-type(13) {
+    animation-delay: 0.6s;
+  }
+  &:nth-of-type(14) {
+    animation-delay: 0.65s;
+  }
+  &:nth-of-type(15) {
+    animation-delay: 0.7s;
+  }
+  &:nth-of-type(16) {
+    animation-delay: 0.75s;
+  }
+  &:nth-of-type(17) {
+    animation-delay: 0.8s;
+  }
+  &:nth-of-type(18) {
+    animation-delay: 0.85s;
+  }
 }
 
 /* Animation Three */
@@ -135,7 +135,7 @@ $break-point: 600px;
   color: var(--color-dark1);
   opacity: 0;
   transform: translate(-300px, 0) scale(0);
-  animation: sideSlide .75s forwards;
+  animation: sideSlide 0.75s forwards;
 }
 
 @keyframes sideSlide {
